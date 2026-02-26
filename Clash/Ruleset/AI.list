@@ -1,5 +1,5 @@
-# 内容：内容：AI平台-国外
-# 数量：47条
+# 内容：AI平台-国外
+# 数量：65条 (原49条 + 新增16条)
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,openai
@@ -49,3 +49,20 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
 DOMAIN-SUFFIX,x.ai
+# --- 以下为新增主流 AI 平台 ---
+DOMAIN-SUFFIX,character.ai
+DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,udio.com
