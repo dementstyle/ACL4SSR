@@ -1,68 +1,84 @@
-# 内容：AI平台-国外
-# 数量：65条 (原49条 + 新增16条)
+# 内容：AI平台-国外 (Gemini, ChatGPT, Claude, Suno 强化防漏版)
+# 数量：68条
+# 说明：统一使用 DOMAIN-SUFFIX 覆盖子域名，并补充了核心防漏 CDN/API 资源
+
+# ===================== 核心防御 (关键字强制收束) =====================
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,openai
-DOMAIN,ai.google.dev
-DOMAIN,aistudio.google.com
-DOMAIN,api.githubcopilot.com
-DOMAIN,api.groq.com
-DOMAIN,api.together.xyz
-DOMAIN,bard.google.com
-DOMAIN,console.groq.com
-DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,gemini.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,notebooklm.google.com
-DOMAIN,sydney.bing.com
-DOMAIN-SUFFIX,ai.azure.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,auth0.com
+DOMAIN-KEYWORD,suno
+
+# ===================== Gemini (Google AI) =====================
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN-SUFFIX,copilot.microsoft.com
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,gemini.com
 DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
+
+# ===================== ChatGPT (OpenAI) =====================
+DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,sora.com
-DOMAIN-SUFFIX,x.ai
-# --- 以下为新增主流 AI 平台 ---
+
+# ===================== Claude (Anthropic) =====================
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# ===================== Suno AI =====================
+DOMAIN-SUFFIX,suno.ai
+DOMAIN-SUFFIX,suno.com
+
+# ===================== 微软 & Copilot =====================
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,sydney.bing.com
+
+# ===================== 其他主流 AI 平台 & 辅助支持 API =====================
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN-SUFFIX,api.groq.com
+DOMAIN-SUFFIX,api.together.xyz
+DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,character.ai
 DOMAIN-SUFFIX,civitai.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,console.groq.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,phind.com
 DOMAIN-SUFFIX,pika.art
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,runwayml.com
-DOMAIN-SUFFIX,suno.ai
-DOMAIN-SUFFIX,suno.com
 DOMAIN-SUFFIX,udio.com
+DOMAIN-SUFFIX,x.ai
