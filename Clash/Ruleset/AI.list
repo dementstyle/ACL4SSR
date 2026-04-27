@@ -9,19 +9,6 @@ DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,suno
 
-# ===================== Gemini (Google AI) =====================
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,gemini.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,gemini.gstatic.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
-DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN-SUFFIX,notebooklm.google.com
-
 # ===================== ChatGPT (OpenAI) =====================
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
