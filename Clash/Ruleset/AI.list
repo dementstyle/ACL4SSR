@@ -1,15 +1,15 @@
-# 内容：AI平台-国外 (Gemini, ChatGPT, Claude, Suno 强化防漏版)
-# 数量：68条
+# 内容：AI平台-国外 (ChatGPT, Claude, Suno 强化防漏版，含 Google AI)
+# 数量：67条
 # 说明：统一使用 DOMAIN-SUFFIX 覆盖子域名，并补充了核心防漏 CDN/API 资源
 
 # ===================== 核心防御 (关键字强制收束) =====================
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
-DOMAIN-KEYWORD,gemini
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,suno
 
 # ===================== ChatGPT (OpenAI) =====================
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -19,9 +19,18 @@ DOMAIN-SUFFIX,sora.com
 
 # ===================== Claude (Anthropic) =====================
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,api.anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
+
+# ===================== Google / Gemini =====================
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 
 # ===================== Suno AI =====================
 DOMAIN-SUFFIX,suno.ai
@@ -44,11 +53,14 @@ DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,console.groq.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN-SUFFIX,grok.com
