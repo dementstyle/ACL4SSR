@@ -1,5 +1,5 @@
-# 内容：AI平台-国外 (ChatGPT, Claude, Suno 强化防漏版，含 Google AI)
-# 数量：67条
+# 内容：AI平台-国外 (整合强化版：含 ChatGPT, Claude, Google AI, Suno, Udio 等)
+# 数量：69条
 # 说明：统一使用 DOMAIN-SUFFIX 覆盖子域名，并补充了核心防漏 CDN/API 资源
 
 # ===================== 核心防御 (关键字强制收束) =====================
@@ -24,17 +24,26 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
-# ===================== Google / Gemini =====================
+# ===================== Google / Gemini / NotebookLM =====================
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
 
-# ===================== Suno AI =====================
+# ===================== AI 音乐与音视频生成 (Suno / Udio 等) =====================
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,udio.com
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,lumalabs.ai
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,runwayml.com
 
 # ===================== 微软 & Copilot =====================
 DOMAIN-SUFFIX,ai.azure.com
@@ -57,7 +66,6 @@ DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,dify.ai
-DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,gamma.app
@@ -70,14 +78,9 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,jetbrains.ai
 DOMAIN-SUFFIX,leonardo.ai
-DOMAIN-SUFFIX,lumalabs.ai
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,phind.com
-DOMAIN-SUFFIX,pika.art
 DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,runwayml.com
-DOMAIN-SUFFIX,udio.com
 DOMAIN-SUFFIX,x.ai
