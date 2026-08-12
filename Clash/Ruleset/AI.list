@@ -25,6 +25,9 @@ DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
 # ===================== Google / Gemini / NotebookLM =====================
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,bard.google.com
